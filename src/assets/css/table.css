@@ -1,0 +1,249 @@
+  /* 表格 */
+  el-button {
+    outline: none !important;
+    overflow: hidden;
+  }
+
+  .el-table .warning-row {
+    background-color: oldlace;
+  }
+
+  .el-table .success-row {
+    background-color: #f0f9eb;
+  }
+
+  .el-tabs__content {
+    overflow: hidden;
+    position: relative;
+    box-shadow: -5px -7px 33px 0px black;
+
+  }
+
+  .el-tabs {
+    padding-right: 6px !important;
+  }
+
+  .el-tabs__header {
+    padding: 0;
+    position: relative;
+    margin: 0 0 14px;
+  }
+
+  /* > 符号 */
+  .el-tabs__nav-next,
+  .el-tabs__nav-prev {
+    line-height: 64px;
+    margin: 0 2px 0 0;
+  }
+
+  .demo-table-expand label {
+    color: #99a9bf;
+  }
+
+  .demo-table-expand .el-form-item {
+    margin: -10px;
+    width: 100%;
+  }
+
+  .el-table th,
+  .el-table tr {
+    background-color: #3f51b514;
+  }
+
+  .el-table td,
+  .el-table th {
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .el-table__expanded-cell[class*=cell] {
+    padding: 20px 20px 6px 30px;
+    text-align: left;
+  }
+  .el-table__expand-icon>.el-icon {
+    margin-top: -9px;
+  }
+  .el-form-item__content {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    line-height: 22px;
+  }
+
+  .el-form-item__label {
+    text-align: right;
+    float: left;
+    color: #606266;
+    line-height: 16px;
+    padding: 5px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .classA {
+    color: #00FA9A;
+  }
+
+  .classB {
+    color: #000;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .spanA {
+    color: blue;
+    font-size: 14px;
+  }
+
+  .el-button.is-round {
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 4px 10px;
+    outline: 0;
+  }
+
+  .el-button--mini,
+  .el-button--small {
+    color: #121111d9;
+  }
+
+  .el-table .cell {
+    padding: 2px 7px;
+    line-height: 26px;
+    font-size: 15px;
+  }
+
+  [class*=" el-icon-"],
+  [class^=el-icon-] {
+    color: blue;
+    font-size: 18px !important;
+  }
+
+  /* 通知 */
+  .el-popover__title {
+    font-size: 16px !important;
+    text-align: center;
+
+  }
+
+  .el-popover {
+    position: absolute;
+    background: #dcdfe6;
+    min-width: 120px;
+    box-shadow: inset 0 0 10px 0px black;
+    font-size: 14px !important;
+  }
+
+  img {
+    width: 140px;
+  }
+
+  /* 小技巧 */
+  .el-notification {
+    width: 250px;
+    padding: 20px 20px;
+    background-color: #DDEEE9;
+    box-shadow: inset 2px 2px 30px -8px #00FF33;
+  }
+
+  .el-notification__group {
+
+    margin: 0;
+
+  }
+
+  .el-notification__title {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .el-notification__content {
+    line-height: 18px;
+
+  }
+
+  .el-notification__closeBtn {
+    top: 6px;
+    right: 8px;
+  }
+
+  /* 表头 */
+  .el-tabs__item {
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+
+  }
+
+  .el-tabs__nav-wrap {
+    padding: 0 16px;
+  }
+
+  .el-carousel__mask,
+  .el-cascader-menu,
+  .el-cascader-menu__item.is-disabled:hover,
+  .el-collapse-item__header,
+  .el-collapse-item__wrap {
+    background-color: #4c08087d;
+  }
+
+  /* 轮播图 */
+  .el-carousel__indicators--outside button {
+    background-color: #d3def5;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    outline: 0;
+  }
+
+  .el-carousel__arrow--left {
+    top: 140px;
+  }
+
+  .el-carousel__arrow--right {
+    top: 140px;
+  }
+
+  /* 阿里图标 */
+  .el-menu-item i {
+    margin-right: 8px;
+  }
+
+  /* 小提示 */
+  .el-tag--mini {
+    position: fixed;
+    left: 11%;
+    margin: 42px 0 0 0;
+    font-size: 12px;
+    color: #567c51;
+    border: 1px solid rgba(64, 158, 255, 0.05);
+    background-color: rgba(142, 184, 226, 0.1);
+  }
+
+  /* 左边框菜单栏 */
+.el-menu {
+  border-right: solid 1px #8d8686;
+}
+  /* .el-menu-item {
+    background-color: rgba(136, 137, 149, 0.45) !important;
+   
+  } */
+
+  .el-menu-item.is-active {
+    background-color: #000b00 !important;
+  }
+
+  .button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
